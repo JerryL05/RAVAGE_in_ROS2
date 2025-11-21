@@ -14,6 +14,7 @@ import os
 from datetime import datetime
 import csv
 from rclpy.qos import QoSProfile, ReliabilityPolicy, HistoryPolicy
+from rclpy.executors import MultiThreadedExecutor
 # ROS2 messages, MAVROS, and services
 from mavros_msgs.msg import State, StatusText, WaypointList
 from mavros_msgs.srv import ParamSet, ParamGet
@@ -279,17 +280,28 @@ class RavageNode(Node):
 
 def main(args=None):
   rclpy.init(args=args)
-  node = RavageNode()
-    
-  # MultiThreadedExecutor might be needed if callbacks become heavy
-  rclpy.spin(node)
-    
-  node.destroy_node()
-  rclpy.shutdown()
+
+  try:
+    node = RavageNode()
+
+    # Use multithreading to allow service discovery to happen in parallel with attack thread
+    executor = MultiThreadedExecutor()
+    executor.add_node(node)
+
+    try:
+      executor.spin()
+    except KeyboardInterrupt:
+      pass
+    finally:
+      executor.shutdown()
+      node.destroy_node()
+  finally:
+    rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
     
+
 
 
 
