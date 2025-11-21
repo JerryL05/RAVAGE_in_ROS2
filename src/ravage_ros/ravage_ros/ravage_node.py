@@ -13,7 +13,7 @@ import yaml
 import os
 from datetime import datetime
 import csv
-
+from rclpy.qos import QoSProfile, ReliabilityPolicy, HistoryPolicy
 # ROS2 messages, MAVROS, and services
 from mavros_msgs.msg import State, StatusText, WaypointList
 from mavros_msgs.srv import ParamSet, ParamGet
@@ -53,36 +53,42 @@ class RavageNode(Node):
     # Load configs from YAML 
     self.load_configs()
 
+    qos_profile = QoSProfile(
+      reliability=ReliabilityPolicy.BEST_EFFORT,
+      history=HistoryPolicy.KEEP_LAST,
+      depth=10
+    )
+    
     # Declare subsriptions 
     self.cb_group = ReentrantCallbackGroup() # Use ReentrantCallbackGroup to run in parallel with service calls
-
+    
     self.sub_status = self.create_subscription(
       StatusText,
       '/mavros/statustext/recv',
       self.status_cb,
-      10,
+      qos_profile,
       callback_group=self.cb_group)
 
     self.sub_pos = self.create_subscription(
       NavSatFix,
       '/mavros/global_position/global',
       self.pos_cb,
-      10,
+      qos_profile,
       callback_group=self.cb_group)
 
     self.sub_mission = self.create_subscription(
       WaypointList,
       '/mavros/mission/waypoints',
       self.mission_cb,
-      10,
+      qos_profile,
       callback_group=self.cb_group)
 
     # Service clients
     self.param_set_client = self.create_client(ParamSet, '/mavros/param/set', callback_group=self.cb_group)
     self.param_get_client = self.create_client(ParamSet, '/mavros/param/get', callback_group=self.cb_group)
 
-    while not self.param_set_client.wait_for_service(timeout_sec=1.0):
-      self.get_logger().info('Waiting for MAVROS services...')
+    #while not self.param_set_client.wait_for_service(timeout_sec=1.0):
+      #self.get_logger().info('Waiting for MAVROS services...')
 
     self.get_logger().info(f"RAVAGE Node Initialized. Target: {self.software}, Attack: {self.attack_type}")
 
@@ -221,6 +227,12 @@ class RavageNode(Node):
         
       # 1. Wait for system to settle
       time.sleep(5)
+      self.get_logger().info("Attack Thread: Waiting for MAVROS Param services...")
+      while not self.param_set_client.wait_for_service(timeout_sec=1.0):
+        if not rclpy.ok():
+          return
+        self.get_logger().info("Attack Thread: Still waiting for services...")
+        
       self.get_logger().info("Starting Attack Sequence...")
 
       # 2. Get Parameters to Attack, update to incorporate more software
@@ -278,6 +290,7 @@ def main(args=None):
 if __name__ == '__main__':
     main()
     
+
 
 
 
