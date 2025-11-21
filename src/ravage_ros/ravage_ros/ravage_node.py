@@ -16,7 +16,7 @@ import csv
 
 # ROS2 messages, MAVROS, and services
 from mavros_msgs.msg import State, StatusText, WaypointList
-from mavros_msgs.src import ParamSet, ParamGet
+from mavros_msgs.srv import ParamSet, ParamGet
 from sensor_msgs.msg import NavSatFix
 
 class RavageNode(Node):
@@ -278,5 +278,6 @@ def main(args=None):
 if __name__ == '__main__':
     main()
     
+
 
 
