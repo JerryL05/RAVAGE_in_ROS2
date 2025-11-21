@@ -24,7 +24,7 @@ class RavageNode(Node):
     super().__init__('ravage_attack_engine')
 
     # Parameters and global variables
-    self.declare_paramter('intensity', 0.0)
+    self.declare_parameter('intensity', 0.0)
     self.declare_parameter('duration', 60.0)
     self.declare_parameter('attack_type', 'GPS')
     self.declare_parameter('software', 'ArduPilot')
@@ -278,6 +278,7 @@ def main(args=None):
 if __name__ == '__main__':
     main()
     
+
 
 
 
