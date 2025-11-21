@@ -90,19 +90,19 @@ class RavageNode(Node):
     self.attack_thread = threading.Thread(target=self.runattack_sequence)
     self.attack_thread.start()
     
-def load_configs(self):
-        # Load existing YAML files here
-        try:
-            p_conf = os.path.join(self.config_path, 'param_config.yaml')
-            a_conf = os.path.join(self.config_path, 'attack_profile.yaml')
-            
-            with open(p_conf, 'r') as f:
-                self.param_config = yaml.safe_load(f)
-            with open(a_conf, 'r') as f:
-                self.sensor_config = yaml.safe_load(f)
-        except Exception as e:
-            self.get_logger().error(f"Failed to load config: {e}")
-            # Exit if failed
+  def load_configs(self):
+          # Load existing YAML files here
+          try:
+              p_conf = os.path.join(self.config_path, 'param_config.yaml')
+              a_conf = os.path.join(self.config_path, 'attack_profile.yaml')
+              
+              with open(p_conf, 'r') as f:
+                  self.param_config = yaml.safe_load(f)
+              with open(a_conf, 'r') as f:
+                  self.sensor_config = yaml.safe_load(f)
+          except Exception as e:
+              self.get_logger().error(f"Failed to load config: {e}")
+              # Exit if failed
 
     # Subscriber callbacks
 
@@ -279,3 +279,4 @@ def main(args=None):
 if __name__ == '__main__':
     main()
     
+
