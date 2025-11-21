@@ -86,7 +86,7 @@ class RavageNode(Node):
 
     # Service clients
     self.param_set_client = self.create_client(ParamSet, '/mavros/param/set', callback_group=self.cb_group)
-    self.param_get_client = self.create_client(ParamSet, '/mavros/param/get', callback_group=self.cb_group)
+    self.param_get_client = self.create_client(ParamGet, '/mavros/param/get', callback_group=self.cb_group)
 
     #while not self.param_set_client.wait_for_service(timeout_sec=1.0):
       #self.get_logger().info('Waiting for MAVROS services...')
@@ -301,6 +301,7 @@ def main(args=None):
 if __name__ == '__main__':
     main()
     
+
 
 
 
