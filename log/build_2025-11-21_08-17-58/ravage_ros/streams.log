@@ -1,0 +1,24 @@
+[0.414s] Invoking command in '/root/ros2_ws/src/ravage_ros': PYTHONPATH=/root/ros2_ws/build/ravage_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/ravage_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ravage_ros build --build-base /root/ros2_ws/build/ravage_ros/build install --record /root/ros2_ws/build/ravage_ros/install.log --single-version-externally-managed install_data
+[0.574s] running egg_info
+[0.575s] writing ../../build/ravage_ros/ravage_ros.egg-info/PKG-INFO
+[0.575s] writing dependency_links to ../../build/ravage_ros/ravage_ros.egg-info/dependency_links.txt
+[0.575s] writing entry points to ../../build/ravage_ros/ravage_ros.egg-info/entry_points.txt
+[0.575s] writing requirements to ../../build/ravage_ros/ravage_ros.egg-info/requires.txt
+[0.575s] writing top-level names to ../../build/ravage_ros/ravage_ros.egg-info/top_level.txt
+[0.576s] reading manifest file '../../build/ravage_ros/ravage_ros.egg-info/SOURCES.txt'
+[0.577s] writing manifest file '../../build/ravage_ros/ravage_ros.egg-info/SOURCES.txt'
+[0.577s] running build
+[0.577s] running build_py
+[0.577s] copying ravage_ros/ravage_node.py -> /root/ros2_ws/build/ravage_ros/build/lib/ravage_ros
+[0.578s] running install
+[0.578s] running install_lib
+[0.578s] copying /root/ros2_ws/build/ravage_ros/build/lib/ravage_ros/ravage_node.py -> /root/ros2_ws/install/ravage_ros/lib/python3.10/site-packages/ravage_ros
+[0.579s] byte-compiling /root/ros2_ws/install/ravage_ros/lib/python3.10/site-packages/ravage_ros/ravage_node.py to ravage_node.cpython-310.pyc
+[0.580s] running install_data
+[0.580s] running install_egg_info
+[0.581s] removing '/root/ros2_ws/install/ravage_ros/lib/python3.10/site-packages/ravage_ros-0.0.0-py3.10.egg-info' (and everything under it)
+[0.582s] Copying ../../build/ravage_ros/ravage_ros.egg-info to /root/ros2_ws/install/ravage_ros/lib/python3.10/site-packages/ravage_ros-0.0.0-py3.10.egg-info
+[0.583s] running install_scripts
+[0.597s] Installing attack_engine script to /root/ros2_ws/install/ravage_ros/lib/ravage_ros
+[0.597s] writing list of installed files to '/root/ros2_ws/build/ravage_ros/install.log'
+[0.614s] Invoked command in '/root/ros2_ws/src/ravage_ros' returned '0': PYTHONPATH=/root/ros2_ws/build/ravage_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/ravage_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ravage_ros build --build-base /root/ros2_ws/build/ravage_ros/build install --record /root/ros2_ws/build/ravage_ros/install.log --single-version-externally-managed install_data

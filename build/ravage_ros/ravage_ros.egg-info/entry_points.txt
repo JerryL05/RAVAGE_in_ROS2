@@ -1,0 +1,3 @@
+[console_scripts]
+attack_engine = ravage_ros.ravage_node:main
+
