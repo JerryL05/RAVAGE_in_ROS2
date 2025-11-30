@@ -287,7 +287,7 @@ def main(args=None):
     # Use multithreading to allow service discovery to happen in parallel with attack thread
     executor = MultiThreadedExecutor()
     executor.add_node(node)
-
+    node.attack_thread.start()
     try:
       executor.spin()
     except KeyboardInterrupt:
@@ -301,6 +301,7 @@ def main(args=None):
 if __name__ == '__main__':
     main()
     
+
 
 
 
