@@ -95,7 +95,7 @@ class RavageNode(Node):
 
     # Start attack thread
     self.attack_thread = threading.Thread(target=self.run_attack_sequence)
-    self.attack_thread.start()
+
     
   def load_configs(self):
           # Load existing YAML files here
@@ -301,6 +301,7 @@ def main(args=None):
 if __name__ == '__main__':
     main()
     
+
 
 
 
