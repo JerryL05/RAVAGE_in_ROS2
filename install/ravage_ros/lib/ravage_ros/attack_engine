@@ -1,10 +1,10 @@
-#!/usr/bin/python3
-# EASY-INSTALL-ENTRY-SCRIPT: 'ravage-ros==0.0.0','console_scripts','attack_engine'
+#!/home/jliang/miniforge3/envs/ros_env/bin/python3.11
+# EASY-INSTALL-ENTRY-SCRIPT: 'ravage_ros==0.0.0','console_scripts','attack_engine'
 import re
 import sys
 
 # for compatibility with easy_install; see #2198
-__requires__ = 'ravage-ros==0.0.0'
+__requires__ = 'ravage_ros==0.0.0'
 
 try:
     from importlib.metadata import distribution
@@ -30,4 +30,4 @@ globals().setdefault('load_entry_point', importlib_load_entry_point)
 
 if __name__ == '__main__':
     sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
-    sys.exit(load_entry_point('ravage-ros==0.0.0', 'console_scripts', 'attack_engine')())
+    sys.exit(load_entry_point('ravage_ros==0.0.0', 'console_scripts', 'attack_engine')())
