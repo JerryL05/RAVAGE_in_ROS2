@@ -1,0 +1,23 @@
+[0.468s] Invoking command in '/home/jliang/ros_ws/build/eigen3_cmake_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --build /home/jliang/ros_ws/build/eigen3_cmake_module -- -j48 -l48
+[0.519s] Invoked command in '/home/jliang/ros_ws/build/eigen3_cmake_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --build /home/jliang/ros_ws/build/eigen3_cmake_module -- -j48 -l48
+[0.522s] Invoking command in '/home/jliang/ros_ws/build/eigen3_cmake_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --install /home/jliang/ros_ws/build/eigen3_cmake_module
+[0.531s] -- Install configuration: "Release"
+[0.531s] -- Execute custom install script
+[0.532s] -- Up-to-date symlink: /home/jliang/ros_ws/install/eigen3_cmake_module/share/ament_index/resource_index/package_run_dependencies/eigen3_cmake_module
+[0.532s] -- Up-to-date symlink: /home/jliang/ros_ws/install/eigen3_cmake_module/share/ament_index/resource_index/parent_prefix_path/eigen3_cmake_module
+[0.532s] -- Up-to-date symlink: /home/jliang/ros_ws/install/eigen3_cmake_module/share/eigen3_cmake_module/environment/ament_prefix_path.sh
+[0.533s] -- Up-to-date symlink: /home/jliang/ros_ws/install/eigen3_cmake_module/share/eigen3_cmake_module/environment/ament_prefix_path.dsv
+[0.533s] -- Up-to-date symlink: /home/jliang/ros_ws/install/eigen3_cmake_module/share/eigen3_cmake_module/environment/path.sh
+[0.533s] -- Up-to-date symlink: /home/jliang/ros_ws/install/eigen3_cmake_module/share/eigen3_cmake_module/environment/path.dsv
+[0.533s] -- Up-to-date symlink: /home/jliang/ros_ws/install/eigen3_cmake_module/share/eigen3_cmake_module/local_setup.bash
+[0.534s] -- Up-to-date symlink: /home/jliang/ros_ws/install/eigen3_cmake_module/share/eigen3_cmake_module/local_setup.sh
+[0.534s] -- Up-to-date symlink: /home/jliang/ros_ws/install/eigen3_cmake_module/share/eigen3_cmake_module/local_setup.zsh
+[0.535s] -- Up-to-date symlink: /home/jliang/ros_ws/install/eigen3_cmake_module/share/eigen3_cmake_module/local_setup.dsv
+[0.535s] -- Symlinking: /home/jliang/ros_ws/install/eigen3_cmake_module/share/eigen3_cmake_module/package.dsv
+[0.546s] -- Up-to-date symlink: /home/jliang/ros_ws/install/eigen3_cmake_module/share/ament_index/resource_index/packages/eigen3_cmake_module
+[0.547s] -- Up-to-date symlink: /home/jliang/ros_ws/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake/eigen3_cmake_module-extras.cmake
+[0.548s] -- Up-to-date symlink: /home/jliang/ros_ws/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake/eigen3_cmake_moduleConfig.cmake
+[0.548s] -- Up-to-date symlink: /home/jliang/ros_ws/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake/eigen3_cmake_moduleConfig-version.cmake
+[0.548s] -- Up-to-date symlink: /home/jliang/ros_ws/install/eigen3_cmake_module/share/eigen3_cmake_module/package.xml
+[0.548s] -- Up-to-date symlink: /home/jliang/ros_ws/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake/Modules/FindEigen3.cmake
+[0.589s] Invoked command in '/home/jliang/ros_ws/build/eigen3_cmake_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --install /home/jliang/ros_ws/build/eigen3_cmake_module

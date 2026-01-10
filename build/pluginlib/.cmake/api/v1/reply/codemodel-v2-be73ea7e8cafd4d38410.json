@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Python3::Interpreter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Python3__Interpreter-Release-90780b8d74278b74cca4.json",
+					"name" : "Python3::Interpreter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Python3::InterpreterMultiConfig::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Python3__InterpreterMultiConfig-Release-506958ece1c3f46e4c24.json",
+					"name" : "Python3::InterpreterMultiConfig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_index_cpp::ament_index_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_index_cpp__ament_index_cpp-Release-ac5de49d703f421ca4ab.json",
+					"name" : "ament_index_cpp::ament_index_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "class_loader::class_loader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-class_loader__class_loader-Release-6613388f839dedf508d9.json",
+					"name" : "class_loader::class_loader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "console_bridge::console_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-console_bridge__console_bridge-Release-7f1d6d5a4c2ce1bc6fc2.json",
+					"name" : "console_bridge::console_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pluginlib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pluginlib-Release-3f7b1ecb609225950cb2.json",
+					"name" : "pluginlib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rcpputils::rcpputils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rcpputils__rcpputils-Release-09535b9c3e62bcae1a08.json",
+					"name" : "rcpputils::rcpputils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rcutils::rcutils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rcutils__rcutils-Release-79efeaf92f9eb3ca23ff.json",
+					"name" : "rcutils::rcutils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tinyxml2::tinyxml2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tinyxml2__tinyxml2-Release-1eaa4743553d17cd1f99.json",
+					"name" : "tinyxml2::tinyxml2",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-2cd0a5c6f9250699fd9f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pluginlib",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "list_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-list_plugins-Release-caad1f7cb0b92fb81b39.json",
+					"name" : "list_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pluginlib_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pluginlib_uninstall-Release-667c49c1f5f3bc7cb7a9.json",
+					"name" : "pluginlib_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-5687bab2d68b751ac095.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jliang/ros_ws/build/pluginlib",
+		"source" : "/home/jliang/ros_ws/src/pluginlib/pluginlib"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

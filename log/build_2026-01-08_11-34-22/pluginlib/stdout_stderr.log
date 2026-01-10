@@ -1,0 +1,34 @@
+[100%] Built target list_plugins
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/lib/pluginlib/list_plugins
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/share/pluginlib/cmake/blank.in
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/share/pluginlib/cmake/pluginlib_enable_plugin_testing.cmake
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/share/pluginlib/cmake/pluginlib_package_hook.cmake
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/include/pluginlib/pluginlib/class_desc.hpp
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/include/pluginlib/pluginlib/class_list_macros.hpp
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/include/pluginlib/pluginlib/class_loader.hpp
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/include/pluginlib/pluginlib/class_loader_base.hpp
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/include/pluginlib/pluginlib/class_loader_imp.hpp
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/include/pluginlib/pluginlib/exceptions.hpp
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/include/pluginlib/pluginlib/impl/split.hpp
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/share/ament_index/resource_index/package_run_dependencies/pluginlib
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/share/ament_index/resource_index/parent_prefix_path/pluginlib
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/share/pluginlib/environment/ament_prefix_path.sh
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/share/pluginlib/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/share/pluginlib/environment/path.sh
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/share/pluginlib/environment/path.dsv
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/share/pluginlib/local_setup.bash
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/share/pluginlib/local_setup.sh
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/share/pluginlib/local_setup.zsh
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/share/pluginlib/local_setup.dsv
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/share/pluginlib/package.dsv
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/share/ament_index/resource_index/packages/pluginlib
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/share/pluginlib/cmake/pluginlib-extras.cmake
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/share/pluginlib/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/share/pluginlib/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/share/pluginlib/cmake/pluginlibConfig.cmake
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/share/pluginlib/cmake/pluginlibConfig-version.cmake
+-- Symlinking: /home/jliang/ros_ws/install/pluginlib/share/pluginlib/package.xml
+-- Installing: /home/jliang/ros_ws/install/pluginlib/share/pluginlib/cmake/export_pluginlibExport.cmake

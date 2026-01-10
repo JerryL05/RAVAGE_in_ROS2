@@ -1,0 +1,1 @@
+/home/jliang/ros_ws/build/rosidl_runtime_cpp/ament_cmake_environment_hooks/local_setup.bash

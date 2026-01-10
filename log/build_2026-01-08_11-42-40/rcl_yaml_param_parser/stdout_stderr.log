@@ -1,0 +1,23 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- Found ament_cmake_ros: 0.10.0 (/home/jliang/miniforge3/envs/ros_humble/share/ament_cmake_ros/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rcutils: 5.1.8 (/home/jliang/ros_ws/install/rcutils/share/rcutils/cmake)
+-- Found rmw: 6.1.1 (/home/jliang/miniforge3/envs/ros_humble/share/rmw/cmake)
+-- Found libyaml_vendor: 1.2.2 (/home/jliang/miniforge3/envs/ros_humble/share/libyaml_vendor/cmake)
+-- Configuring done (0.5s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    mavlink_DIR
+
+[0m
+-- Generating done (0.0s)
+-- Build files have been written to: /home/jliang/ros_ws/build/rcl_yaml_param_parser

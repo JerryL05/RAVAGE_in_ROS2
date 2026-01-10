@@ -1,0 +1,1 @@
+/home/jliang/ros_ws/build/eigen3_cmake_module/ament_cmake_environment_hooks/local_setup.bash

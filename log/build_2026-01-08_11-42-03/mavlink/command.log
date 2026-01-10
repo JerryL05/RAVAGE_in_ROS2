@@ -1,0 +1,6 @@
+Invoking command in '/home/jliang/ros_ws/build/mavlink': CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake /home/jliang/ros_ws/src/mavlink -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jliang/ros_ws/install/mavlink
+Invoked command in '/home/jliang/ros_ws/build/mavlink' returned '0': CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake /home/jliang/ros_ws/src/mavlink -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/jliang/ros_ws/install/mavlink
+Invoking command in '/home/jliang/ros_ws/build/mavlink': CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --build /home/jliang/ros_ws/build/mavlink -- -j48 -l48
+Invoked command in '/home/jliang/ros_ws/build/mavlink' returned '0': CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --build /home/jliang/ros_ws/build/mavlink -- -j48 -l48
+Invoking command in '/home/jliang/ros_ws/build/mavlink': CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --install /home/jliang/ros_ws/build/mavlink
+Invoked command in '/home/jliang/ros_ws/build/mavlink' returned '0': CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --install /home/jliang/ros_ws/build/mavlink

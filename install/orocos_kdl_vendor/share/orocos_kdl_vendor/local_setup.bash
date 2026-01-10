@@ -1,0 +1,1 @@
+/home/jliang/ros_ws/build/orocos_kdl_vendor/ament_cmake_environment_hooks/local_setup.bash

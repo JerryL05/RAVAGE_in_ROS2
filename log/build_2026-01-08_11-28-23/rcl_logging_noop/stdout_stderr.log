@@ -1,0 +1,62 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- The C compiler identification is GNU 14.3.0
+-- The CXX compiler identification is GNU 14.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/jliang/miniforge3/envs/ros_humble/bin/x86_64-conda-linux-gnu-cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/jliang/miniforge3/envs/ros_humble/bin/x86_64-conda-linux-gnu-c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.10.0 (/home/jliang/miniforge3/envs/ros_humble/share/ament_cmake_ros/cmake)
+-- Found Python3: /home/jliang/miniforge3/envs/ros_humble/bin/python (found version "3.10.19") found components: Interpreter
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rcl_logging_interface: 2.3.1 (/home/jliang/ros_ws/install/rcl_logging_interface/share/rcl_logging_interface/cmake)
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    PYTHON_EXECUTABLE
+    ROS_DISTRO
+
+[0m
+-- Build files have been written to: /home/jliang/ros_ws/build/rcl_logging_noop
+[ 50%] [32mBuilding CXX object CMakeFiles/rcl_logging_noop.dir/src/rcl_logging_noop/rcl_logging_noop.cpp.o[0m
+[100%] [1m[32mLinking CXX shared library librcl_logging_noop.so[0m
+[100%] Built target rcl_logging_noop
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/jliang/ros_ws/install/rcl_logging_noop/share/ament_index/resource_index/package_run_dependencies/rcl_logging_noop
+-- Symlinking: /home/jliang/ros_ws/install/rcl_logging_noop/share/ament_index/resource_index/parent_prefix_path/rcl_logging_noop
+-- Symlinking: /home/jliang/ros_ws/install/rcl_logging_noop/share/rcl_logging_noop/environment/ament_prefix_path.sh
+-- Symlinking: /home/jliang/ros_ws/install/rcl_logging_noop/share/rcl_logging_noop/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jliang/ros_ws/install/rcl_logging_noop/share/rcl_logging_noop/environment/path.sh
+-- Symlinking: /home/jliang/ros_ws/install/rcl_logging_noop/share/rcl_logging_noop/environment/path.dsv
+-- Symlinking: /home/jliang/ros_ws/install/rcl_logging_noop/share/rcl_logging_noop/local_setup.bash
+-- Symlinking: /home/jliang/ros_ws/install/rcl_logging_noop/share/rcl_logging_noop/local_setup.sh
+-- Symlinking: /home/jliang/ros_ws/install/rcl_logging_noop/share/rcl_logging_noop/local_setup.zsh
+-- Symlinking: /home/jliang/ros_ws/install/rcl_logging_noop/share/rcl_logging_noop/local_setup.dsv
+-- Symlinking: /home/jliang/ros_ws/install/rcl_logging_noop/share/rcl_logging_noop/package.dsv
+-- Symlinking: /home/jliang/ros_ws/install/rcl_logging_noop/share/ament_index/resource_index/packages/rcl_logging_noop
+-- Symlinking: /home/jliang/ros_ws/install/rcl_logging_noop/share/rcl_logging_noop/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/jliang/ros_ws/install/rcl_logging_noop/share/rcl_logging_noop/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/jliang/ros_ws/install/rcl_logging_noop/share/rcl_logging_noop/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/jliang/ros_ws/install/rcl_logging_noop/share/rcl_logging_noop/cmake/rcl_logging_noopConfig.cmake
+-- Symlinking: /home/jliang/ros_ws/install/rcl_logging_noop/share/rcl_logging_noop/cmake/rcl_logging_noopConfig-version.cmake
+-- Symlinking: /home/jliang/ros_ws/install/rcl_logging_noop/share/rcl_logging_noop/package.xml
+-- Installing: /home/jliang/ros_ws/install/rcl_logging_noop/lib/librcl_logging_noop.so
+-- Set non-toolchain portion of runtime path of "/home/jliang/ros_ws/install/rcl_logging_noop/lib/librcl_logging_noop.so" to ""
+-- Installing: /home/jliang/ros_ws/install/rcl_logging_noop/share/rcl_logging_noop/cmake/rcl_logging_noopExport.cmake
+-- Installing: /home/jliang/ros_ws/install/rcl_logging_noop/share/rcl_logging_noop/cmake/rcl_logging_noopExport-release.cmake

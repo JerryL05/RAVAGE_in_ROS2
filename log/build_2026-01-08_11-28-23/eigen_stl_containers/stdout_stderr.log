@@ -1,0 +1,49 @@
+-- The C compiler identification is GNU 14.3.0
+-- The CXX compiler identification is GNU 14.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/jliang/miniforge3/envs/ros_humble/bin/x86_64-conda-linux-gnu-cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/jliang/miniforge3/envs/ros_humble/bin/x86_64-conda-linux-gnu-c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (/home/jliang/miniforge3/envs/ros_humble/share/ament_cmake/cmake)
+-- Found Python3: /home/jliang/miniforge3/envs/ros_humble/bin/python (found version "3.10.19") found components: Interpreter
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    PYTHON_EXECUTABLE
+    ROS_DISTRO
+
+[0m
+-- Build files have been written to: /home/jliang/ros_ws/build/eigen_stl_containers
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_containers.h
+-- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_map_container.h
+-- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_vector_container.h
+-- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/ament_index/resource_index/package_run_dependencies/eigen_stl_containers
+-- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/ament_index/resource_index/parent_prefix_path/eigen_stl_containers
+-- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/environment/ament_prefix_path.sh
+-- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/environment/path.sh
+-- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/environment/path.dsv
+-- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/local_setup.bash
+-- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/local_setup.sh
+-- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/local_setup.zsh
+-- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/local_setup.dsv
+-- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/package.dsv
+-- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/ament_index/resource_index/packages/eigen_stl_containers
+-- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/cmake/eigen_stl_containersConfig.cmake
+-- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/cmake/eigen_stl_containersConfig-version.cmake
+-- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/package.xml
+-- Installing: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/cmake/eigen_stl_containersTargetsExport.cmake

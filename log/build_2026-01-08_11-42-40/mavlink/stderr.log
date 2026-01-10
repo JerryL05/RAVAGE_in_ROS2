@@ -1,0 +1,10 @@
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_TESTING
+    PYTHON_EXECUTABLE
+    Python3_EXECUTABLE
+    ROS_DISTRO
+    mavlink_DIR
+
+[0m

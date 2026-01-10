@@ -1,0 +1,59 @@
+[0.452s] Invoking command in '/home/jliang/ros_ws/build/pybind11_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake /home/jliang/ros_ws/src/pybind11_vendor -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DPython3_EXECUTABLE=/home/jliang/miniforge3/envs/ros_humble/bin/python -DPYTHON_EXECUTABLE=/home/jliang/miniforge3/envs/ros_humble/bin/python -DROS_DISTRO=humble -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jliang/ros_ws/install/pybind11_vendor
+[0.475s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.475s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.475s]   CMake.
+[0.475s] 
+[0.475s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.475s]   to tell CMake that the project requires at least <min> but has been updated
+[0.476s]   to work with policies introduced by <max> or earlier.
+[0.476s] 
+[0.476s] [0m
+[0.555s] -- The C compiler identification is GNU 14.3.0
+[0.684s] -- The CXX compiler identification is GNU 14.3.0
+[0.702s] -- Detecting C compiler ABI info
+[0.807s] -- Detecting C compiler ABI info - done
+[0.832s] -- Check for working C compiler: /home/jliang/miniforge3/envs/ros_humble/bin/x86_64-conda-linux-gnu-cc - skipped
+[0.832s] -- Detecting C compile features
+[0.833s] -- Detecting C compile features - done
+[0.855s] -- Detecting CXX compiler ABI info
+[0.984s] -- Detecting CXX compiler ABI info - done
+[1.011s] -- Check for working CXX compiler: /home/jliang/miniforge3/envs/ros_humble/bin/x86_64-conda-linux-gnu-c++ - skipped
+[1.012s] -- Detecting CXX compile features
+[1.013s] -- Detecting CXX compile features - done
+[1.028s] -- Found ament_cmake: 1.3.3 (/home/jliang/miniforge3/envs/ros_humble/share/ament_cmake/cmake)
+[1.156s] -- Found Python3: /home/jliang/miniforge3/envs/ros_humble/bin/python (found version "3.10.19") found components: Interpreter
+[1.217s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.299s] -- Performing Test HAS_FLTO_AUTO
+[1.486s] -- Performing Test HAS_FLTO_AUTO - Success
+[1.580s] -- Configuring done (1.1s)
+[1.585s] -- Generating done (0.0s)
+[1.585s] [33mCMake Warning:
+[1.585s]   Manually-specified variables were not used by the project:
+[1.585s] 
+[1.585s]     PYTHON_EXECUTABLE
+[1.585s]     ROS_DISTRO
+[1.585s] 
+[1.585s] [0m
+[1.588s] -- Build files have been written to: /home/jliang/ros_ws/build/pybind11_vendor
+[1.595s] Invoked command in '/home/jliang/ros_ws/build/pybind11_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake /home/jliang/ros_ws/src/pybind11_vendor -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DPython3_EXECUTABLE=/home/jliang/miniforge3/envs/ros_humble/bin/python -DPYTHON_EXECUTABLE=/home/jliang/miniforge3/envs/ros_humble/bin/python -DROS_DISTRO=humble -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jliang/ros_ws/install/pybind11_vendor
+[1.598s] Invoking command in '/home/jliang/ros_ws/build/pybind11_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --build /home/jliang/ros_ws/build/pybind11_vendor -- -j48 -l48
+[1.632s] Invoked command in '/home/jliang/ros_ws/build/pybind11_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --build /home/jliang/ros_ws/build/pybind11_vendor -- -j48 -l48
+[1.635s] Invoking command in '/home/jliang/ros_ws/build/pybind11_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --install /home/jliang/ros_ws/build/pybind11_vendor
+[1.642s] -- Install configuration: "Release"
+[1.643s] -- Execute custom install script
+[1.643s] -- Symlinking: /home/jliang/ros_ws/install/pybind11_vendor/share/ament_index/resource_index/package_run_dependencies/pybind11_vendor
+[1.652s] -- Symlinking: /home/jliang/ros_ws/install/pybind11_vendor/share/ament_index/resource_index/parent_prefix_path/pybind11_vendor
+[1.663s] -- Symlinking: /home/jliang/ros_ws/install/pybind11_vendor/share/pybind11_vendor/environment/ament_prefix_path.sh
+[1.672s] -- Symlinking: /home/jliang/ros_ws/install/pybind11_vendor/share/pybind11_vendor/environment/ament_prefix_path.dsv
+[1.682s] -- Symlinking: /home/jliang/ros_ws/install/pybind11_vendor/share/pybind11_vendor/environment/path.sh
+[1.691s] -- Symlinking: /home/jliang/ros_ws/install/pybind11_vendor/share/pybind11_vendor/environment/path.dsv
+[1.697s] -- Symlinking: /home/jliang/ros_ws/install/pybind11_vendor/share/pybind11_vendor/local_setup.bash
+[1.703s] -- Symlinking: /home/jliang/ros_ws/install/pybind11_vendor/share/pybind11_vendor/local_setup.sh
+[1.714s] -- Symlinking: /home/jliang/ros_ws/install/pybind11_vendor/share/pybind11_vendor/local_setup.zsh
+[1.720s] -- Symlinking: /home/jliang/ros_ws/install/pybind11_vendor/share/pybind11_vendor/local_setup.dsv
+[1.731s] -- Symlinking: /home/jliang/ros_ws/install/pybind11_vendor/share/pybind11_vendor/package.dsv
+[1.737s] -- Symlinking: /home/jliang/ros_ws/install/pybind11_vendor/share/ament_index/resource_index/packages/pybind11_vendor
+[1.743s] -- Symlinking: /home/jliang/ros_ws/install/pybind11_vendor/share/pybind11_vendor/cmake/pybind11_vendorConfig.cmake
+[1.748s] -- Symlinking: /home/jliang/ros_ws/install/pybind11_vendor/share/pybind11_vendor/cmake/pybind11_vendorConfig-version.cmake
+[1.754s] -- Symlinking: /home/jliang/ros_ws/install/pybind11_vendor/share/pybind11_vendor/package.xml
+[1.766s] Invoked command in '/home/jliang/ros_ws/build/pybind11_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --install /home/jliang/ros_ws/build/pybind11_vendor

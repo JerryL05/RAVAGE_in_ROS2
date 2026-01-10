@@ -1,0 +1,42 @@
+[0.466s] Invoking command in '/home/jliang/ros_ws/build/angles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --build /home/jliang/ros_ws/build/angles -- -j48 -l48
+[0.521s] Built target ament_cmake_python_symlink_angles
+[0.883s] running egg_info
+[0.940s] writing angles.egg-info/PKG-INFO
+[0.961s] writing dependency_links to angles.egg-info/dependency_links.txt
+[1.178s] writing top-level names to angles.egg-info/top_level.txt
+[1.235s] reading manifest file 'angles.egg-info/SOURCES.txt'
+[1.236s] writing manifest file 'angles.egg-info/SOURCES.txt'
+[1.266s] Built target ament_cmake_python_build_angles_egg
+[1.288s] Invoked command in '/home/jliang/ros_ws/build/angles' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --build /home/jliang/ros_ws/build/angles -- -j48 -l48
+[1.289s] Invoking command in '/home/jliang/ros_ws/build/angles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --install /home/jliang/ros_ws/build/angles
+[1.297s] -- Install configuration: "Release"
+[1.298s] -- Execute custom install script
+[1.299s] -- Up-to-date symlink: /home/jliang/ros_ws/install/angles/include/angles/angles/angles.h
+[1.299s] -- Up-to-date symlink: /home/jliang/ros_ws/install/angles/share/angles/environment/pythonpath.sh
+[1.299s] -- Up-to-date symlink: /home/jliang/ros_ws/install/angles/share/angles/environment/pythonpath.dsv
+[1.299s] -- Up-to-date symlink: /home/jliang/ros_ws/install/angles/lib/python3.10/site-packages/angles-1.16.1-py3.10.egg-info/PKG-INFO
+[1.300s] -- Up-to-date symlink: /home/jliang/ros_ws/install/angles/lib/python3.10/site-packages/angles-1.16.1-py3.10.egg-info/SOURCES.txt
+[1.300s] -- Up-to-date symlink: /home/jliang/ros_ws/install/angles/lib/python3.10/site-packages/angles-1.16.1-py3.10.egg-info/dependency_links.txt
+[1.300s] -- Up-to-date symlink: /home/jliang/ros_ws/install/angles/lib/python3.10/site-packages/angles-1.16.1-py3.10.egg-info/top_level.txt
+[1.300s] -- Up-to-date symlink: /home/jliang/ros_ws/install/angles/lib/python3.10/site-packages/angles/__init__.py
+[1.300s] -- Up-to-date symlink: /home/jliang/ros_ws/install/angles/share/ament_index/resource_index/package_run_dependencies/angles
+[1.300s] -- Up-to-date symlink: /home/jliang/ros_ws/install/angles/share/ament_index/resource_index/parent_prefix_path/angles
+[1.300s] -- Up-to-date symlink: /home/jliang/ros_ws/install/angles/share/angles/environment/ament_prefix_path.sh
+[1.301s] -- Up-to-date symlink: /home/jliang/ros_ws/install/angles/share/angles/environment/ament_prefix_path.dsv
+[1.301s] -- Up-to-date symlink: /home/jliang/ros_ws/install/angles/share/angles/environment/path.sh
+[1.301s] -- Up-to-date symlink: /home/jliang/ros_ws/install/angles/share/angles/environment/path.dsv
+[1.301s] -- Up-to-date symlink: /home/jliang/ros_ws/install/angles/share/angles/local_setup.bash
+[1.301s] -- Up-to-date symlink: /home/jliang/ros_ws/install/angles/share/angles/local_setup.sh
+[1.301s] -- Up-to-date symlink: /home/jliang/ros_ws/install/angles/share/angles/local_setup.zsh
+[1.301s] -- Up-to-date symlink: /home/jliang/ros_ws/install/angles/share/angles/local_setup.dsv
+[1.301s] -- Symlinking: /home/jliang/ros_ws/install/angles/share/angles/package.dsv
+[1.311s] -- Up-to-date symlink: /home/jliang/ros_ws/install/angles/share/ament_index/resource_index/packages/angles
+[1.311s] -- Up-to-date symlink: /home/jliang/ros_ws/install/angles/share/angles/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.311s] -- Up-to-date symlink: /home/jliang/ros_ws/install/angles/share/angles/cmake/ament_cmake_export_targets-extras.cmake
+[1.311s] -- Up-to-date symlink: /home/jliang/ros_ws/install/angles/share/angles/cmake/anglesConfig.cmake
+[1.311s] -- Up-to-date symlink: /home/jliang/ros_ws/install/angles/share/angles/cmake/anglesConfig-version.cmake
+[1.311s] -- Up-to-date symlink: /home/jliang/ros_ws/install/angles/share/angles/package.xml
+[1.343s] Listing 'lib/python3.10/site-packages/angles'...
+[1.344s] Can't list 'lib/python3.10/site-packages/angles'
+[1.348s] -- Up-to-date: /home/jliang/ros_ws/install/angles/share/angles/cmake/export_anglesExport.cmake
+[1.357s] Invoked command in '/home/jliang/ros_ws/build/angles' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --install /home/jliang/ros_ws/build/angles

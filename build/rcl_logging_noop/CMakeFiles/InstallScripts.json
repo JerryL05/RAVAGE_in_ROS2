@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/jliang/ros_ws/build/rcl_logging_noop/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,16 @@
+[1.090s] Invoking command in '/home/jliang/ros_ws/build/rosidl_cli': CONDA_PROMPT_MODIFIER=(ros_humble) PYTHONPATH=/home/jliang/ros_ws/build/rosidl_cli/prefix_override:/home/jliang/miniforge3/envs/ros_humble/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/jliang/ros_ws/install/rosidl_cli/lib/python3.10/site-packages:${PYTHONPATH} /home/jliang/miniforge3/envs/ros_humble/bin/python3.10 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jliang/ros_ws/build/rosidl_cli/build --no-deps symlink_data
+[1.580s] running develop
+[1.819s] running egg_info
+[1.861s] writing rosidl_cli.egg-info/PKG-INFO
+[1.902s] writing dependency_links to rosidl_cli.egg-info/dependency_links.txt
+[2.011s] writing entry points to rosidl_cli.egg-info/entry_points.txt
+[2.083s] writing requirements to rosidl_cli.egg-info/requires.txt
+[2.118s] writing top-level names to rosidl_cli.egg-info/top_level.txt
+[2.175s] reading manifest file 'rosidl_cli.egg-info/SOURCES.txt'
+[2.176s] writing manifest file 'rosidl_cli.egg-info/SOURCES.txt'
+[2.218s] running build_ext
+[2.218s] Creating /home/jliang/ros_ws/install/rosidl_cli/lib/python3.10/site-packages/rosidl-cli.egg-link (link to .)
+[2.218s] Installing rosidl script to /home/jliang/ros_ws/install/rosidl_cli/bin
+[2.219s] 
+[2.219s] Installed /home/jliang/ros_ws/build/rosidl_cli
+[2.219s] running symlink_data

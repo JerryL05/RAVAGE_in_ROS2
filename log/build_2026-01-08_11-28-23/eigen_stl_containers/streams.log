@@ -1,0 +1,55 @@
+[0.461s] Invoking command in '/home/jliang/ros_ws/build/eigen_stl_containers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake /home/jliang/ros_ws/src/eigen_stl_containers -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DPython3_EXECUTABLE=/home/jliang/miniforge3/envs/ros_humble/bin/python -DPYTHON_EXECUTABLE=/home/jliang/miniforge3/envs/ros_humble/bin/python -DROS_DISTRO=humble -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jliang/ros_ws/install/eigen_stl_containers
+[0.584s] -- The C compiler identification is GNU 14.3.0
+[0.712s] -- The CXX compiler identification is GNU 14.3.0
+[0.730s] -- Detecting C compiler ABI info
+[0.843s] -- Detecting C compiler ABI info - done
+[0.867s] -- Check for working C compiler: /home/jliang/miniforge3/envs/ros_humble/bin/x86_64-conda-linux-gnu-cc - skipped
+[0.868s] -- Detecting C compile features
+[0.868s] -- Detecting C compile features - done
+[0.892s] -- Detecting CXX compiler ABI info
+[1.016s] -- Detecting CXX compiler ABI info - done
+[1.042s] -- Check for working CXX compiler: /home/jliang/miniforge3/envs/ros_humble/bin/x86_64-conda-linux-gnu-c++ - skipped
+[1.042s] -- Detecting CXX compile features
+[1.043s] -- Detecting CXX compile features - done
+[1.057s] -- Found ament_cmake: 1.3.3 (/home/jliang/miniforge3/envs/ros_humble/share/ament_cmake/cmake)
+[1.186s] -- Found Python3: /home/jliang/miniforge3/envs/ros_humble/bin/python (found version "3.10.19") found components: Interpreter
+[1.247s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.380s] -- Configuring done (0.9s)
+[1.383s] -- Generating done (0.0s)
+[1.384s] [33mCMake Warning:
+[1.384s]   Manually-specified variables were not used by the project:
+[1.384s] 
+[1.384s]     PYTHON_EXECUTABLE
+[1.384s]     ROS_DISTRO
+[1.384s] 
+[1.384s] [0m
+[1.385s] -- Build files have been written to: /home/jliang/ros_ws/build/eigen_stl_containers
+[1.390s] Invoked command in '/home/jliang/ros_ws/build/eigen_stl_containers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake /home/jliang/ros_ws/src/eigen_stl_containers -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DPython3_EXECUTABLE=/home/jliang/miniforge3/envs/ros_humble/bin/python -DPYTHON_EXECUTABLE=/home/jliang/miniforge3/envs/ros_humble/bin/python -DROS_DISTRO=humble -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jliang/ros_ws/install/eigen_stl_containers
+[1.392s] Invoking command in '/home/jliang/ros_ws/build/eigen_stl_containers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --build /home/jliang/ros_ws/build/eigen_stl_containers -- -j48 -l48
+[1.433s] Invoked command in '/home/jliang/ros_ws/build/eigen_stl_containers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --build /home/jliang/ros_ws/build/eigen_stl_containers -- -j48 -l48
+[1.435s] Invoking command in '/home/jliang/ros_ws/build/eigen_stl_containers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --install /home/jliang/ros_ws/build/eigen_stl_containers
+[1.440s] -- Install configuration: "Release"
+[1.440s] -- Execute custom install script
+[1.440s] -- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_containers.h
+[1.451s] -- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_map_container.h
+[1.457s] -- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_vector_container.h
+[1.470s] -- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/ament_index/resource_index/package_run_dependencies/eigen_stl_containers
+[1.480s] -- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/ament_index/resource_index/parent_prefix_path/eigen_stl_containers
+[1.487s] -- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/environment/ament_prefix_path.sh
+[1.498s] -- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/environment/ament_prefix_path.dsv
+[1.510s] -- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/environment/path.sh
+[1.520s] -- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/environment/path.dsv
+[1.527s] -- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/local_setup.bash
+[1.539s] -- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/local_setup.sh
+[1.548s] -- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/local_setup.zsh
+[1.558s] -- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/local_setup.dsv
+[1.567s] -- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/package.dsv
+[1.576s] -- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/ament_index/resource_index/packages/eigen_stl_containers
+[1.585s] -- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.594s] -- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/cmake/ament_cmake_export_targets-extras.cmake
+[1.602s] -- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.608s] -- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/cmake/eigen_stl_containersConfig.cmake
+[1.614s] -- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/cmake/eigen_stl_containersConfig-version.cmake
+[1.623s] -- Symlinking: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/package.xml
+[1.628s] -- Installing: /home/jliang/ros_ws/install/eigen_stl_containers/share/eigen_stl_containers/cmake/eigen_stl_containersTargetsExport.cmake
+[1.632s] Invoked command in '/home/jliang/ros_ws/build/eigen_stl_containers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --install /home/jliang/ros_ws/build/eigen_stl_containers

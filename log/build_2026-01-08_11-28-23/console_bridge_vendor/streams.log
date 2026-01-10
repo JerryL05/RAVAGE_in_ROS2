@@ -1,0 +1,57 @@
+[0.453s] Invoking command in '/home/jliang/ros_ws/build/console_bridge_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake /home/jliang/ros_ws/src/console_bridge_vendor -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DPython3_EXECUTABLE=/home/jliang/miniforge3/envs/ros_humble/bin/python -DPYTHON_EXECUTABLE=/home/jliang/miniforge3/envs/ros_humble/bin/python -DROS_DISTRO=humble -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jliang/ros_ws/install/console_bridge_vendor
+[0.475s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.475s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.475s]   CMake.
+[0.476s] 
+[0.476s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.476s]   to tell CMake that the project requires at least <min> but has been updated
+[0.476s]   to work with policies introduced by <max> or earlier.
+[0.476s] 
+[0.476s] [0m
+[0.552s] -- The C compiler identification is GNU 14.3.0
+[0.676s] -- The CXX compiler identification is GNU 14.3.0
+[0.691s] -- Detecting C compiler ABI info
+[0.801s] -- Detecting C compiler ABI info - done
+[0.825s] -- Check for working C compiler: /home/jliang/miniforge3/envs/ros_humble/bin/x86_64-conda-linux-gnu-cc - skipped
+[0.825s] -- Detecting C compile features
+[0.826s] -- Detecting C compile features - done
+[0.846s] -- Detecting CXX compiler ABI info
+[0.967s] -- Detecting CXX compiler ABI info - done
+[0.992s] -- Check for working CXX compiler: /home/jliang/miniforge3/envs/ros_humble/bin/x86_64-conda-linux-gnu-c++ - skipped
+[0.993s] -- Detecting CXX compile features
+[0.993s] -- Detecting CXX compile features - done
+[1.012s] -- Found ament_cmake: 1.3.3 (/home/jliang/miniforge3/envs/ros_humble/share/ament_cmake/cmake)
+[1.153s] -- Found Python3: /home/jliang/miniforge3/envs/ros_humble/bin/python (found version "3.10.19") found components: Interpreter
+[1.215s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.353s] -- Configuring done (0.9s)
+[1.357s] -- Generating done (0.0s)
+[1.357s] [33mCMake Warning:
+[1.357s]   Manually-specified variables were not used by the project:
+[1.357s] 
+[1.358s]     PYTHON_EXECUTABLE
+[1.358s]     ROS_DISTRO
+[1.358s] 
+[1.358s] [0m
+[1.358s] -- Build files have been written to: /home/jliang/ros_ws/build/console_bridge_vendor
+[1.363s] Invoked command in '/home/jliang/ros_ws/build/console_bridge_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake /home/jliang/ros_ws/src/console_bridge_vendor -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DPython3_EXECUTABLE=/home/jliang/miniforge3/envs/ros_humble/bin/python -DPYTHON_EXECUTABLE=/home/jliang/miniforge3/envs/ros_humble/bin/python -DROS_DISTRO=humble -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jliang/ros_ws/install/console_bridge_vendor
+[1.366s] Invoking command in '/home/jliang/ros_ws/build/console_bridge_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --build /home/jliang/ros_ws/build/console_bridge_vendor -- -j48 -l48
+[1.412s] Invoked command in '/home/jliang/ros_ws/build/console_bridge_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --build /home/jliang/ros_ws/build/console_bridge_vendor -- -j48 -l48
+[1.415s] Invoking command in '/home/jliang/ros_ws/build/console_bridge_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --install /home/jliang/ros_ws/build/console_bridge_vendor
+[1.421s] -- Install configuration: "Release"
+[1.422s] -- Execute custom install script
+[1.422s] -- Symlinking: /home/jliang/ros_ws/install/console_bridge_vendor/share/ament_index/resource_index/package_run_dependencies/console_bridge_vendor
+[1.434s] -- Symlinking: /home/jliang/ros_ws/install/console_bridge_vendor/share/ament_index/resource_index/parent_prefix_path/console_bridge_vendor
+[1.445s] -- Symlinking: /home/jliang/ros_ws/install/console_bridge_vendor/share/console_bridge_vendor/environment/ament_prefix_path.sh
+[1.453s] -- Symlinking: /home/jliang/ros_ws/install/console_bridge_vendor/share/console_bridge_vendor/environment/ament_prefix_path.dsv
+[1.464s] -- Symlinking: /home/jliang/ros_ws/install/console_bridge_vendor/share/console_bridge_vendor/environment/path.sh
+[1.470s] -- Symlinking: /home/jliang/ros_ws/install/console_bridge_vendor/share/console_bridge_vendor/environment/path.dsv
+[1.476s] -- Symlinking: /home/jliang/ros_ws/install/console_bridge_vendor/share/console_bridge_vendor/local_setup.bash
+[1.487s] -- Symlinking: /home/jliang/ros_ws/install/console_bridge_vendor/share/console_bridge_vendor/local_setup.sh
+[1.494s] -- Symlinking: /home/jliang/ros_ws/install/console_bridge_vendor/share/console_bridge_vendor/local_setup.zsh
+[1.505s] -- Symlinking: /home/jliang/ros_ws/install/console_bridge_vendor/share/console_bridge_vendor/local_setup.dsv
+[1.512s] -- Symlinking: /home/jliang/ros_ws/install/console_bridge_vendor/share/console_bridge_vendor/package.dsv
+[1.523s] -- Symlinking: /home/jliang/ros_ws/install/console_bridge_vendor/share/ament_index/resource_index/packages/console_bridge_vendor
+[1.530s] -- Symlinking: /home/jliang/ros_ws/install/console_bridge_vendor/share/console_bridge_vendor/cmake/console_bridge_vendorConfig.cmake
+[1.536s] -- Symlinking: /home/jliang/ros_ws/install/console_bridge_vendor/share/console_bridge_vendor/cmake/console_bridge_vendorConfig-version.cmake
+[1.545s] -- Symlinking: /home/jliang/ros_ws/install/console_bridge_vendor/share/console_bridge_vendor/package.xml
+[1.558s] Invoked command in '/home/jliang/ros_ws/build/console_bridge_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --install /home/jliang/ros_ws/build/console_bridge_vendor

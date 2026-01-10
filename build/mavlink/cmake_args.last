@@ -1,0 +1,1 @@
+['-DCMAKE_BUILD_TYPE=Release', '-DBUILD_TESTING=OFF', '-DPython3_EXECUTABLE=/home/jliang/miniforge3/envs/ros_humble/bin/python', '-DPYTHON_EXECUTABLE=/home/jliang/miniforge3/envs/ros_humble/bin/python', '-DROS_DISTRO=humble', '-DCMAKE_POLICY_VERSION_MINIMUM=3.5', '-Dmavlink_DIR=/home/jliang/ros_ws/install/mavlink/lib/cmake/MAVLink']

@@ -1,0 +1,1 @@
+/home/jliang/ros_ws/build/rosidl_typesupport_interface/ament_cmake_core/rosidl_typesupport_interfaceConfig.cmake

@@ -1,0 +1,1 @@
+/home/jliang/ros_ws/build/console_bridge_vendor/ament_cmake_environment_hooks/local_setup.zsh

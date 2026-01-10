@@ -1,0 +1,146 @@
+[0.026s] Invoking command in '/home/jliang/ros_ws/build/rcutils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake /home/jliang/ros_ws/src/rcutils -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DPython3_EXECUTABLE=/home/jliang/miniforge3/envs/ros_humble/bin/python -DPYTHON_EXECUTABLE=/home/jliang/miniforge3/envs/ros_humble/bin/python -DROS_DISTRO=humble -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jliang/ros_ws/install/rcutils
+[0.470s] -- The C compiler identification is GNU 14.3.0
+[0.471s] -- The CXX compiler identification is GNU 14.3.0
+[0.471s] -- Detecting C compiler ABI info
+[0.471s] -- Detecting C compiler ABI info - done
+[0.472s] -- Check for working C compiler: /home/jliang/miniforge3/envs/ros_humble/bin/x86_64-conda-linux-gnu-cc - skipped
+[0.472s] -- Detecting C compile features
+[0.472s] -- Detecting C compile features - done
+[0.472s] -- Detecting CXX compiler ABI info
+[0.597s] -- Detecting CXX compiler ABI info - done
+[0.622s] -- Check for working CXX compiler: /home/jliang/miniforge3/envs/ros_humble/bin/x86_64-conda-linux-gnu-c++ - skipped
+[0.622s] -- Detecting CXX compile features
+[0.623s] -- Detecting CXX compile features - done
+[0.638s] -- Found ament_cmake_python: 1.3.3 (/home/jliang/miniforge3/envs/ros_humble/share/ament_cmake_python/cmake)
+[0.642s] -- Found ament_cmake_ros: 0.10.0 (/home/jliang/miniforge3/envs/ros_humble/share/ament_cmake_ros/cmake)
+[0.776s] -- Found Python3: /home/jliang/miniforge3/envs/ros_humble/bin/python (found version "3.10.19") found components: Interpreter
+[0.838s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.113s] -- Performing Test USES_GLIBC
+[1.169s] -- Performing Test USES_GLIBC - Failed
+[1.170s] -- Looking for __atomic_load_8 in atomic
+[1.277s] -- Looking for __atomic_load_8 in atomic - found
+[1.369s] -- Configuring done (1.3s)
+[1.381s] [33mCMake Warning:
+[1.381s]   Manually-specified variables were not used by the project:
+[1.381s] 
+[1.381s]     PYTHON_EXECUTABLE
+[1.381s]     ROS_DISTRO
+[1.381s] 
+[1.381s] [0m
+[1.382s] -- Generating done (0.0s)
+[1.383s] -- Build files have been written to: /home/jliang/ros_ws/build/rcutils
+[1.388s] Invoked command in '/home/jliang/ros_ws/build/rcutils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake /home/jliang/ros_ws/src/rcutils -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DPython3_EXECUTABLE=/home/jliang/miniforge3/envs/ros_humble/bin/python -DPYTHON_EXECUTABLE=/home/jliang/miniforge3/envs/ros_humble/bin/python -DROS_DISTRO=humble -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jliang/ros_ws/install/rcutils
+[1.391s] Invoking command in '/home/jliang/ros_ws/build/rcutils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --build /home/jliang/ros_ws/build/rcutils -- -j48 -l48
+[1.438s] [  3%] [1m[34mExpanding logging_macros.h.em[0m
+[1.459s] [  3%] Built target ament_cmake_python_symlink_rcutils
+[1.551s] [  7%] [32mBuilding C object CMakeFiles/rcutils.dir/src/format_string.c.o[0m
+[1.552s] [ 10%] [32mBuilding C object CMakeFiles/rcutils.dir/src/char_array.c.o[0m
+[1.552s] [ 14%] [32mBuilding C object CMakeFiles/rcutils.dir/src/allocator.c.o[0m
+[1.552s] [ 21%] [32mBuilding C object CMakeFiles/rcutils.dir/src/shared_library.c.o[0m
+[1.552s] [ 21%] [32mBuilding C object CMakeFiles/rcutils.dir/src/filesystem.c.o[0m
+[1.553s] [ 28%] [32mBuilding C object CMakeFiles/rcutils.dir/src/logging.c.o[0m
+[1.553s] [ 28%] [32mBuilding C object CMakeFiles/rcutils.dir/src/hash_map.c.o[0m
+[1.553s] [ 32%] [32mBuilding C object CMakeFiles/rcutils.dir/src/cmdline_parser.c.o[0m
+[1.553s] [ 35%] [32mBuilding C object CMakeFiles/rcutils.dir/src/array_list.c.o[0m
+[1.553s] [ 39%] [32mBuilding C object CMakeFiles/rcutils.dir/src/qsort.c.o[0m
+[1.554s] [ 42%] [32mBuilding C object CMakeFiles/rcutils.dir/src/string_map.c.o[0m
+[1.554s] [ 46%] [32mBuilding C object CMakeFiles/rcutils.dir/src/find.c.o[0m
+[1.554s] [ 50%] [32mBuilding C object CMakeFiles/rcutils.dir/src/env.c.o[0m
+[1.555s] [ 53%] [32mBuilding C object CMakeFiles/rcutils.dir/src/time.c.o[0m
+[1.555s] [ 64%] [32mBuilding C object CMakeFiles/rcutils.dir/src/process.c.o[0m
+[1.555s] [ 64%] [32mBuilding C object CMakeFiles/rcutils.dir/src/strcasecmp.c.o[0m
+[1.555s] [ 64%] [32mBuilding C object CMakeFiles/rcutils.dir/src/error_handling.c.o[0m
+[1.555s] [ 71%] [32mBuilding C object CMakeFiles/rcutils.dir/src/snprintf.c.o[0m
+[1.555s] [ 71%] [32mBuilding C object CMakeFiles/rcutils.dir/src/repl_str.c.o[0m
+[1.555s] [ 78%] [32mBuilding C object CMakeFiles/rcutils.dir/src/strdup.c.o[0m
+[1.556s] [ 78%] [32mBuilding C object CMakeFiles/rcutils.dir/src/split.c.o[0m
+[1.557s] [ 82%] [32mBuilding C object CMakeFiles/rcutils.dir/src/time_unix.c.o[0m
+[1.558s] [ 85%] [32mBuilding C object CMakeFiles/rcutils.dir/src/strerror.c.o[0m
+[1.559s] [ 92%] [32mBuilding C object CMakeFiles/rcutils.dir/src/uint8_array.c.o[0m
+[1.559s] [ 92%] [32mBuilding C object CMakeFiles/rcutils.dir/src/testing/fault_injection.c.o[0m
+[1.561s] [ 96%] [32mBuilding C object CMakeFiles/rcutils.dir/src/string_array.c.o[0m
+[1.766s] [100%] [1m[32mLinking C shared library librcutils.so[0m
+[1.815s] [100%] Built target rcutils
+[1.845s] running egg_info
+[1.845s] creating rcutils.egg-info
+[1.887s] writing rcutils.egg-info/PKG-INFO
+[1.923s] writing dependency_links to rcutils.egg-info/dependency_links.txt
+[2.142s] writing top-level names to rcutils.egg-info/top_level.txt
+[2.142s] writing manifest file 'rcutils.egg-info/SOURCES.txt'
+[2.199s] reading manifest file 'rcutils.egg-info/SOURCES.txt'
+[2.199s] writing manifest file 'rcutils.egg-info/SOURCES.txt'
+[2.227s] [100%] Built target ament_cmake_python_build_rcutils_egg
+[2.239s] Invoked command in '/home/jliang/ros_ws/build/rcutils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --build /home/jliang/ros_ws/build/rcutils -- -j48 -l48
+[2.241s] Invoking command in '/home/jliang/ros_ws/build/rcutils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --install /home/jliang/ros_ws/build/rcutils
+[2.246s] -- Install configuration: "Release"
+[2.246s] -- Execute custom install script
+[2.247s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/share/rcutils/environment/pythonpath.sh
+[2.257s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/share/rcutils/environment/pythonpath.dsv
+[2.264s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/lib/python3.10/site-packages/rcutils-5.1.8-py3.10.egg-info/PKG-INFO
+[2.270s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/lib/python3.10/site-packages/rcutils-5.1.8-py3.10.egg-info/SOURCES.txt
+[2.276s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/lib/python3.10/site-packages/rcutils-5.1.8-py3.10.egg-info/dependency_links.txt
+[2.282s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/lib/python3.10/site-packages/rcutils-5.1.8-py3.10.egg-info/top_level.txt
+[2.289s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/lib/python3.10/site-packages/rcutils/__init__.py
+[2.299s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/lib/python3.10/site-packages/rcutils/logging.py
+[2.306s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/share/ament_index/resource_index/package_run_dependencies/rcutils
+[2.315s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/share/ament_index/resource_index/parent_prefix_path/rcutils
+[2.325s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/share/rcutils/environment/ament_prefix_path.sh
+[2.333s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/share/rcutils/environment/ament_prefix_path.dsv
+[2.345s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/share/rcutils/environment/path.sh
+[2.353s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/share/rcutils/environment/path.dsv
+[2.362s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/share/rcutils/local_setup.bash
+[2.373s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/share/rcutils/local_setup.sh
+[2.384s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/share/rcutils/local_setup.zsh
+[2.395s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/share/rcutils/local_setup.dsv
+[2.401s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/share/rcutils/package.dsv
+[2.411s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/share/ament_index/resource_index/packages/rcutils
+[2.417s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/share/rcutils/cmake/ament_cmake_export_link_flags-extras.cmake
+[2.423s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.434s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake
+[2.441s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/share/rcutils/cmake/ament_cmake_export_targets-extras.cmake
+[2.451s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.459s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/share/rcutils/cmake/rcutilsConfig.cmake
+[2.470s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/share/rcutils/cmake/rcutilsConfig-version.cmake
+[2.477s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/share/rcutils/package.xml
+[2.490s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/allocator.h
+[2.498s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/cmdline_parser.h
+[2.506s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/env.h
+[2.512s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/error_handling.h
+[2.518s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/filesystem.h
+[2.530s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/find.h
+[2.542s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/format_string.h
+[2.552s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/get_env.h
+[2.560s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/isalnum_no_locale.h
+[2.568s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/logging.h
+[2.579s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/macros.h
+[2.590s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/process.h
+[2.597s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/qsort.h
+[2.604s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/repl_str.h
+[2.614s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/shared_library.h
+[2.625s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/snprintf.h
+[2.634s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/split.h
+[2.644s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/stdatomic_helper.h
+[2.651s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/stdatomic_helper/gcc/stdatomic.h
+[2.662s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/stdatomic_helper/win32/stdatomic.h
+[2.671s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/strcasecmp.h
+[2.684s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/strdup.h
+[2.694s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/strerror.h
+[2.705s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/testing/fault_injection.h
+[2.711s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/time.h
+[2.721s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/types.h
+[2.731s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/types/array_list.h
+[2.739s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/types/char_array.h
+[2.749s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/types/hash_map.h
+[2.756s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/types/rcutils_ret.h
+[2.762s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/types/string_array.h
+[2.773s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/types/string_map.h
+[2.784s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/types/uint8_array.h
+[2.795s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/visibility_control.h
+[2.801s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/visibility_control_macros.h
+[2.813s] -- Symlinking: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/logging_macros.h
+[2.858s] Listing 'lib/python3.10/site-packages/rcutils'...
+[2.858s] Can't list 'lib/python3.10/site-packages/rcutils'
+[2.862s] -- Installing: /home/jliang/ros_ws/install/rcutils/lib/librcutils.so
+[2.862s] -- Installing: /home/jliang/ros_ws/install/rcutils/share/rcutils/cmake/rcutilsExport.cmake
+[2.862s] -- Installing: /home/jliang/ros_ws/install/rcutils/share/rcutils/cmake/rcutilsExport-release.cmake
+[2.865s] Invoked command in '/home/jliang/ros_ws/build/rcutils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --install /home/jliang/ros_ws/build/rcutils

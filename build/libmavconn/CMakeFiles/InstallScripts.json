@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/jliang/ros_ws/build/libmavconn/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

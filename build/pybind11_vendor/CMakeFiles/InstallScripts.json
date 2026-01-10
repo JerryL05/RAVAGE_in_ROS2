@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/jliang/ros_ws/build/pybind11_vendor/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

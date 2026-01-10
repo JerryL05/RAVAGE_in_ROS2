@@ -1,0 +1,74 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- The C compiler identification is GNU 14.3.0
+-- The CXX compiler identification is GNU 14.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/jliang/miniforge3/envs/ros_humble/bin/x86_64-conda-linux-gnu-cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/jliang/miniforge3/envs/ros_humble/bin/x86_64-conda-linux-gnu-c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (/home/jliang/miniforge3/envs/ros_humble/share/ament_cmake/cmake)
+-- Found Python3: /home/jliang/miniforge3/envs/ros_humble/bin/python (found version "3.10.19") found components: Interpreter
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (1.0s)
+-- Generating done (0.0s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    PYTHON_EXECUTABLE
+    ROS_DISTRO
+
+[0m
+-- Build files have been written to: /home/jliang/ros_ws/build/angles
+Built target ament_cmake_python_symlink_angles
+running egg_info
+creating angles.egg-info
+writing angles.egg-info/PKG-INFO
+writing dependency_links to angles.egg-info/dependency_links.txt
+writing top-level names to angles.egg-info/top_level.txt
+writing manifest file 'angles.egg-info/SOURCES.txt'
+reading manifest file 'angles.egg-info/SOURCES.txt'
+writing manifest file 'angles.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_angles_egg
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/jliang/ros_ws/install/angles/include/angles/angles/angles.h
+-- Symlinking: /home/jliang/ros_ws/install/angles/share/angles/environment/pythonpath.sh
+-- Symlinking: /home/jliang/ros_ws/install/angles/share/angles/environment/pythonpath.dsv
+-- Symlinking: /home/jliang/ros_ws/install/angles/lib/python3.10/site-packages/angles-1.16.1-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/jliang/ros_ws/install/angles/lib/python3.10/site-packages/angles-1.16.1-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/jliang/ros_ws/install/angles/lib/python3.10/site-packages/angles-1.16.1-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/jliang/ros_ws/install/angles/lib/python3.10/site-packages/angles-1.16.1-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/jliang/ros_ws/install/angles/lib/python3.10/site-packages/angles/__init__.py
+-- Symlinking: /home/jliang/ros_ws/install/angles/share/ament_index/resource_index/package_run_dependencies/angles
+-- Symlinking: /home/jliang/ros_ws/install/angles/share/ament_index/resource_index/parent_prefix_path/angles
+-- Symlinking: /home/jliang/ros_ws/install/angles/share/angles/environment/ament_prefix_path.sh
+-- Symlinking: /home/jliang/ros_ws/install/angles/share/angles/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jliang/ros_ws/install/angles/share/angles/environment/path.sh
+-- Symlinking: /home/jliang/ros_ws/install/angles/share/angles/environment/path.dsv
+-- Symlinking: /home/jliang/ros_ws/install/angles/share/angles/local_setup.bash
+-- Symlinking: /home/jliang/ros_ws/install/angles/share/angles/local_setup.sh
+-- Symlinking: /home/jliang/ros_ws/install/angles/share/angles/local_setup.zsh
+-- Symlinking: /home/jliang/ros_ws/install/angles/share/angles/local_setup.dsv
+-- Symlinking: /home/jliang/ros_ws/install/angles/share/angles/package.dsv
+-- Symlinking: /home/jliang/ros_ws/install/angles/share/ament_index/resource_index/packages/angles
+-- Symlinking: /home/jliang/ros_ws/install/angles/share/angles/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/jliang/ros_ws/install/angles/share/angles/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/jliang/ros_ws/install/angles/share/angles/cmake/anglesConfig.cmake
+-- Symlinking: /home/jliang/ros_ws/install/angles/share/angles/cmake/anglesConfig-version.cmake
+-- Symlinking: /home/jliang/ros_ws/install/angles/share/angles/package.xml
+Listing 'lib/python3.10/site-packages/angles'...
+Can't list 'lib/python3.10/site-packages/angles'
+-- Installing: /home/jliang/ros_ws/install/angles/share/angles/cmake/export_anglesExport.cmake

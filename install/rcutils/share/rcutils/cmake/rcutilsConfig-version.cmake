@@ -1,0 +1,1 @@
+/home/jliang/ros_ws/build/rcutils/ament_cmake_core/rcutilsConfig-version.cmake

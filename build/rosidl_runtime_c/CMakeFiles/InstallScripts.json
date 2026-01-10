@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/jliang/ros_ws/build/rosidl_runtime_c/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

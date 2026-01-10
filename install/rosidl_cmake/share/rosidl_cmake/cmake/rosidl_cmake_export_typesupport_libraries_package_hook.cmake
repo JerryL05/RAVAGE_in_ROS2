@@ -1,0 +1,1 @@
+/home/jliang/ros_ws/src/rosidl/rosidl_cmake/cmake/rosidl_cmake_export_typesupport_libraries_package_hook.cmake

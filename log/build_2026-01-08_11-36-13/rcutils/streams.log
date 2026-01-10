@@ -1,0 +1,24 @@
+[0.039s] Invoking command in '/home/jliang/ros_ws/build/rcutils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake /home/jliang/ros_ws/src/rcutils -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DPython3_EXECUTABLE=/home/jliang/miniforge3/envs/ros_humble/bin/python -DPYTHON_EXECUTABLE=/home/jliang/miniforge3/envs/ros_humble/bin/python -DROS_DISTRO=humble -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -Dmavlink_DIR=/home/jliang/ros_ws/install/mavlink/lib/cmake/MAVLink -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jliang/ros_ws/install/rcutils
+[0.498s] -- Found ament_cmake_python: 1.3.3 (/home/jliang/miniforge3/envs/ros_humble/share/ament_cmake_python/cmake)
+[0.499s] -- Found ament_cmake_ros: 0.10.0 (/home/jliang/miniforge3/envs/ros_humble/share/ament_cmake_ros/cmake)
+[0.499s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.611s] -- Configuring done (0.6s)
+[0.621s] -- Generating done (0.0s)
+[0.621s] [33mCMake Warning:
+[0.621s]   Manually-specified variables were not used by the project:
+[0.621s] 
+[0.621s]     mavlink_DIR
+[0.621s] 
+[0.621s] [0m
+[0.623s] -- Build files have been written to: /home/jliang/ros_ws/build/rcutils
+[0.627s] Invoked command in '/home/jliang/ros_ws/build/rcutils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake /home/jliang/ros_ws/src/rcutils -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DPython3_EXECUTABLE=/home/jliang/miniforge3/envs/ros_humble/bin/python -DPYTHON_EXECUTABLE=/home/jliang/miniforge3/envs/ros_humble/bin/python -DROS_DISTRO=humble -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -Dmavlink_DIR=/home/jliang/ros_ws/install/mavlink/lib/cmake/MAVLink -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jliang/ros_ws/install/rcutils
+[0.630s] Invoking command in '/home/jliang/ros_ws/build/rcutils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jliang/ros_ws/install/tf2_tools:/home/jliang/ros_ws/install/examples_tf2_py:/home/jliang/ros_ws/install/tf2_ros_py:/home/jliang/ros_ws/install/ros2plugin:/home/jliang/ros_ws/install/ravage_ros:/home/jliang/ros_ws/install/sensor_msgs_py:/home/jliang/ros_ws/install/rosidl_cli CONDA_PROMPT_MODIFIER=(ros_humble) /home/jliang/miniforge3/envs/ros_humble/bin/cmake --build /home/jliang/ros_ws/build/rcutils -- -j48 -l48
+[0.700s] [  0%] Built target ament_cmake_python_symlink_rcutils
+[0.710s] [100%] Built target rcutils
+[1.088s] running egg_info
+[1.130s] writing rcutils.egg-info/PKG-INFO
+[1.171s] writing dependency_links to rcutils.egg-info/dependency_links.txt
+[1.399s] writing top-level names to rcutils.egg-info/top_level.txt
+[1.458s] reading manifest file 'rcutils.egg-info/SOURCES.txt'
+[1.458s] writing manifest file 'rcutils.egg-info/SOURCES.txt'
+[1.483s] [100%] Built target ament_cmake_python_build_rcutils_egg

@@ -1,0 +1,1 @@
+/home/jliang/miniforge3/envs/ros_humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh

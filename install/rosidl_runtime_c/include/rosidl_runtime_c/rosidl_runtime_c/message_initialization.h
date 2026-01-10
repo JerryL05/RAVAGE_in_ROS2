@@ -1,0 +1,1 @@
+/home/jliang/ros_ws/src/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/message_initialization.h

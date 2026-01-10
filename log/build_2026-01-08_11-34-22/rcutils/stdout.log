@@ -1,0 +1,80 @@
+[  0%] Built target ament_cmake_python_symlink_rcutils
+[100%] Built target rcutils
+running egg_info
+writing rcutils.egg-info/PKG-INFO
+writing dependency_links to rcutils.egg-info/dependency_links.txt
+writing top-level names to rcutils.egg-info/top_level.txt
+reading manifest file 'rcutils.egg-info/SOURCES.txt'
+writing manifest file 'rcutils.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_rcutils_egg
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/share/rcutils/environment/pythonpath.sh
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/share/rcutils/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/lib/python3.10/site-packages/rcutils-5.1.8-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/lib/python3.10/site-packages/rcutils-5.1.8-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/lib/python3.10/site-packages/rcutils-5.1.8-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/lib/python3.10/site-packages/rcutils-5.1.8-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/lib/python3.10/site-packages/rcutils/__init__.py
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/lib/python3.10/site-packages/rcutils/logging.py
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/share/ament_index/resource_index/package_run_dependencies/rcutils
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/share/ament_index/resource_index/parent_prefix_path/rcutils
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/share/rcutils/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/share/rcutils/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/share/rcutils/environment/path.sh
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/share/rcutils/environment/path.dsv
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/share/rcutils/local_setup.bash
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/share/rcutils/local_setup.sh
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/share/rcutils/local_setup.zsh
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/share/rcutils/local_setup.dsv
+-- Symlinking: /home/jliang/ros_ws/install/rcutils/share/rcutils/package.dsv
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/share/ament_index/resource_index/packages/rcutils
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/share/rcutils/cmake/ament_cmake_export_link_flags-extras.cmake
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/share/rcutils/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/share/rcutils/cmake/rcutilsConfig.cmake
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/share/rcutils/cmake/rcutilsConfig-version.cmake
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/share/rcutils/package.xml
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/allocator.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/cmdline_parser.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/env.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/error_handling.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/filesystem.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/find.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/format_string.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/get_env.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/isalnum_no_locale.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/logging.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/macros.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/process.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/qsort.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/repl_str.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/shared_library.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/snprintf.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/split.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/stdatomic_helper.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/stdatomic_helper/gcc/stdatomic.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/stdatomic_helper/win32/stdatomic.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/strcasecmp.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/strdup.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/strerror.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/testing/fault_injection.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/time.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/types.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/types/array_list.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/types/char_array.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/types/hash_map.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/types/rcutils_ret.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/types/string_array.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/types/string_map.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/types/uint8_array.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/visibility_control.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/visibility_control_macros.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcutils/include/rcutils/rcutils/logging_macros.h
+Listing 'lib/python3.10/site-packages/rcutils'...
+Can't list 'lib/python3.10/site-packages/rcutils'
+-- Installing: /home/jliang/ros_ws/install/rcutils/lib/librcutils.so
+-- Up-to-date: /home/jliang/ros_ws/install/rcutils/share/rcutils/cmake/rcutilsExport.cmake
+-- Up-to-date: /home/jliang/ros_ws/install/rcutils/share/rcutils/cmake/rcutilsExport-release.cmake

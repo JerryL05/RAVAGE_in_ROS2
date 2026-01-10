@@ -1,0 +1,33 @@
+-- Found ament_cmake_ros: 0.10.0 (/home/jliang/miniforge3/envs/ros_humble/share/ament_cmake_ros/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rcutils: 5.1.8 (/home/jliang/ros_ws/install/rcutils/share/rcutils/cmake)
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/jliang/ros_ws/build/rcl_logging_interface
+[100%] Built target rcl_logging_interface
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcl_logging_interface/include/rcl_logging_interface/rcl_logging_interface/rcl_logging_interface.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcl_logging_interface/include/rcl_logging_interface/rcl_logging_interface/visibility_control.h
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcl_logging_interface/share/ament_index/resource_index/package_run_dependencies/rcl_logging_interface
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcl_logging_interface/share/ament_index/resource_index/parent_prefix_path/rcl_logging_interface
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcl_logging_interface/share/rcl_logging_interface/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcl_logging_interface/share/rcl_logging_interface/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcl_logging_interface/share/rcl_logging_interface/environment/path.sh
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcl_logging_interface/share/rcl_logging_interface/environment/path.dsv
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcl_logging_interface/share/rcl_logging_interface/local_setup.bash
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcl_logging_interface/share/rcl_logging_interface/local_setup.sh
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcl_logging_interface/share/rcl_logging_interface/local_setup.zsh
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcl_logging_interface/share/rcl_logging_interface/local_setup.dsv
+-- Symlinking: /home/jliang/ros_ws/install/rcl_logging_interface/share/rcl_logging_interface/package.dsv
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcl_logging_interface/share/ament_index/resource_index/packages/rcl_logging_interface
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcl_logging_interface/share/rcl_logging_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcl_logging_interface/share/rcl_logging_interface/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcl_logging_interface/share/rcl_logging_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcl_logging_interface/share/rcl_logging_interface/cmake/rcl_logging_interfaceConfig.cmake
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcl_logging_interface/share/rcl_logging_interface/cmake/rcl_logging_interfaceConfig-version.cmake
+-- Up-to-date symlink: /home/jliang/ros_ws/install/rcl_logging_interface/share/rcl_logging_interface/package.xml
+-- Installing: /home/jliang/ros_ws/install/rcl_logging_interface/lib/librcl_logging_interface.so
+-- Set non-toolchain portion of runtime path of "/home/jliang/ros_ws/install/rcl_logging_interface/lib/librcl_logging_interface.so" to ""
+-- Up-to-date: /home/jliang/ros_ws/install/rcl_logging_interface/share/rcl_logging_interface/cmake/rcl_logging_interfaceExport.cmake
+-- Up-to-date: /home/jliang/ros_ws/install/rcl_logging_interface/share/rcl_logging_interface/cmake/rcl_logging_interfaceExport-release.cmake

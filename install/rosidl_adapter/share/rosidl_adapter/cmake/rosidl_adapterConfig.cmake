@@ -1,0 +1,1 @@
+/home/jliang/ros_ws/build/rosidl_adapter/ament_cmake_core/rosidl_adapterConfig.cmake

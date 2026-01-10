@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/jliang/ros_ws/build/console_bridge_vendor/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
